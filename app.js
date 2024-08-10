@@ -47,7 +47,7 @@ const blogSchema = new Schema(
 );
 const Blog = mongoose.model("Blog", blogSchema);
 
-// Routes
+//Setting up the different routes
 
 // Home route
 app.get("/", (req, res) => {
