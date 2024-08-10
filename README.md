@@ -28,14 +28,16 @@ A dynamic blog application built using Node.js, Express, MongoDB, and EJS. This 
 ### Installation
 
 1. Clone the repository:
+   
    ```bash
    https://github.com/pranav-js670/Node.js-Blog-App.git
    ```
-2. Navigate to the project directory
-3. Install dependencies
-4. Set up your MongoDB connection
-5. Start the server
-6. Visit the application in your browser at http://localhost:3000
+   
+3. Navigate to the project directory
+4. Install dependencies
+5. Set up your MongoDB connection
+6. Start the server
+7. Visit the application in your browser at http://localhost:3000
 
 ## Project Structure
 
