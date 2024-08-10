@@ -7,7 +7,7 @@ const app = express();
 
 // Connect to MongoDB
 const dburl =
-  "mongodb+srv://jspranav15:sKLqXY8zvyVZFauc@cluster0.ctlax.mongodb.net/node-tuts?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://<username><password>@cluster0.ctlax.mongodb.net/node-tuts?retryWrites=true&w=majority&appName=Cluster0";
 mongoose
   .connect(dburl, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
